@@ -56,7 +56,8 @@ export default function AppLayout() {
       <aside className="fixed inset-y-0 left-0 hidden w-64 border-r border-ink-700 bg-ink-900 p-4 md:block">
         <div className="mb-8 flex h-12 items-center gap-3 px-2">
           <div className="flex h-9 w-9 items-center justify-center rounded-md bg-accent text-black">
-            <Music2 size={19} />
+            {/* <Music2 size={19} /> */}
+            <img src="/soundSphere-icon.png" alt="soundSphere" className="h-auto w-auto rounded-xl" />
           </div>
           <div>
             <p className="text-sm font-semibold text-white">soundSphere</p>

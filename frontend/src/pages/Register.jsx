@@ -1,4 +1,3 @@
-import { Music2 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext.jsx";
@@ -48,9 +47,7 @@ export default function Register() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(30,215,96,0.18),_transparent_32%),radial-gradient(circle_at_bottom_right,_rgba(154,232,182,0.08),_transparent_28%)]" />
       <section className="relative z-10 w-full max-w-md rounded-2xl border border-white/10 bg-ink-900/85 p-6 shadow-panel backdrop-blur-md sm:p-7">
         <div className="mb-8 flex items-center gap-3">
-          <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-accent text-black shadow-[0_0_24px_rgba(30,215,96,0.22)]">
-            <Music2 size={20} />
-          </div>
+          <img src="/soundSphere-icon.png" alt="soundSphere" className="h-11 w-11 rounded-xl" />
           <div>
             <h1 className="text-xl font-semibold text-white">Create account</h1>
             <p className="text-sm text-neutral-400">soundSphere</p>

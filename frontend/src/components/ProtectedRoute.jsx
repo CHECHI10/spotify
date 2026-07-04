@@ -6,8 +6,12 @@ export default function ProtectedRoute() {
 
   if (loading) {
     return (
-      <main className="flex min-h-screen items-center justify-center bg-ink-950 text-sm text-neutral-400">
-        Loading session
+      <main className="flex min-h-screen flex-col items-center justify-center bg-ink-950">
+        <div className="h-14 w-14 animate-spin rounded-full border-4 border-green-500 border-t-transparent"></div>
+
+        <p className="mt-5 text-neutral-400">
+          Loading your music...
+        </p>
       </main>
     );
   }
